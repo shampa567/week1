@@ -7,7 +7,7 @@ typedef struct LinkedList
     LinkedList* next;
 } LinkedList;
 
-void enqueue(LinkedList* q, unsigned int newValue);
-void dequeue(LinkedList* q);
+void enqueue(LinkedList** q, unsigned int newValue);
+void dequeue(LinkedList** q);
 
 #endif /* LINKEDLIST_H */

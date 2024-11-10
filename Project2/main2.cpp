@@ -1,11 +1,19 @@
 #include <iostream>
-#include "LINKEDLIST.H"
-
+#include "Stack.h"
 int main()
 {
-	LinkedList* list = new LinkedList;
-	enqueue(list, 10);
-	enqueue(list, 20);
-	dequeue(list);
+    Stack* stk = new Stack;
+    initStack(stk);
+    push(stk, 1);
+    push(stk, 4);
+    push(stk, 9);
+    std::cout << "Welcome to the first program in C++ !!!" << std::endl;
+    while (!isEmpty(stk)) 
+    {
+        std::cout << "Element was popped: " << pop(stk) << std::endl;
+    }
+    cleanStack(stk);
+    delete stk;
+    system("pause");
 	return 0;
 }

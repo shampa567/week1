@@ -1,2 +1,2 @@
-﻿  Queue.cpp
-  Project3.vcxproj -> C:\magshimim\C++\week1\week1\Project3\Debug\Project3.exe
+﻿MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\magshimim\C++\week1\week1\Project3\Debug\Project3.exe : fatal error LNK1120: 1 unresolved externals
