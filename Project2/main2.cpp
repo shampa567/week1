@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Stack.h"
+
 int main()
 {
     Stack* stk = new Stack;
